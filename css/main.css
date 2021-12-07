@@ -1,0 +1,169 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*********** Typography *********/
+
+h1 {
+  font-size: 40px;
+  color: #050931;
+  line-height: 50px;
+  font-weight: 600;
+}
+h2 {
+}
+h3 {
+  color: #131848;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #8f91a2;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/*********** Spacing *********/
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+.mt-20 {
+  margin-top: 20px !important;
+}
+.mt-30 {
+  margin-top: 30px !important;
+}
+.mt-50 {
+  margin-top: 50px !important;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.mb-25 {
+  margin-bottom: 25px !important;
+}
+
+/*********** Navbar *********/
+
+.navbar {
+  background: #ecf1f4 !important;
+  padding: 15px 0;
+}
+.navbar .nav-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar .nav-item .nav-link {
+  font-size: 15px;
+  color: #636972;
+  font-weight: 400;
+  margin: 0 20px;
+  padding: 0;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #55bc7e;
+}
+
+.navbar .main-btn {
+  background-color: #49a16c;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font: 500;
+  padding: 15px 45px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-left: 25px;
+  display: inline-block;
+}
+.navbar .main-btn:hover {
+  background-color: #30794d;
+  transition: all 0.4s ease-in-out;
+}
+
+/*********** Hero Area *********/
+
+.hero {
+  height: 90vh;
+  background-color: #ecf1f4;
+}
+.hero .dots {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.hero span {
+  background-color: #d3e8e1;
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 23px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  font-size: 11px;
+  line-height: 20px;
+  color: #4e6570;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.hero .form-control {
+  padding: 18px 10px;
+  outline: 0;
+  border: 0;
+  border-radius: 5px 0 0;
+  -webkit-border-radius: 5px 0 0;
+  -moz-border-radius: 5px 0 0;
+  -ms-border-radius: 5px 0 0;
+  -o-border-radius: 5px 0 0;
+  font-size: 14px;
+  color: #ced3d9;
+  font-weight: 300;
+}
+.hero .form-btn {
+  background-color: #55bc7e;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  transition: all 0.4s ease-in-out;
+}
+.hero .form-btn:hover {
+  background-color: #329b5c;
+}
+.hero .form-shadow {
+  box-shadow: 0px 10px 25px rgba(70, 85, 103, 0.05);
+  margin-top: 25px;
+}
+.hero .hero-img {
+  width: 70%;
+}
+
+/***********  About  *********/
+
+.about {
+  padding: 100px 0;
+}
+.about .about-box {
+  text-align: center;
+  padding: 0 40px;
+}
