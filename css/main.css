@@ -112,7 +112,7 @@ p {
 .hero .dots {
   position: absolute;
   left: 0;
-  bottom: 11px;
+  bottom: 0;
 }
 .hero span {
   background-color: #d3e8e1;
@@ -193,11 +193,13 @@ p {
 .ondots {
   position: absolute;
   right: 0px;
-  bottom: -750px;
+  bottom: -826px;
+  z-index: -1;
 }
 
 .on {
   margin-bottom: 30px;
+  padding: 100px 0;
 }
 
 .subscribe {
@@ -207,4 +209,12 @@ p {
 }
 .color-white {
   color: #ffffff;
+}
+.services {
+  background: rgba(236, 241, 244, 0.41);
+}
+
+.services-card {
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(36, 53, 63, 0.06);
 }
